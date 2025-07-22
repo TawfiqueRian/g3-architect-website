@@ -19,10 +19,22 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 
+.btn-primary{
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 20px 25px;
+    border: none;
+    margin-bottom: 50px;
+    margin-top: 32px;
+}
+
 /* header style  */
 
 .logo{
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: bold;
 }
 
@@ -40,10 +52,38 @@
 .nav-bar ul li a{
     text-decoration: none;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.13rem;
 } 
 
 .nav-bar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+
+/* banner relared styles */
+
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.banner-des{
+    font-size: 1rem;
+}
+
+.banner-pic{
+    width: 100%;
+}
+
+/* media query for small devices */
+
+@media screen and (max-width: 576px){
+    .nav-bar{
+        flex-direction: column;
+    }
 }
