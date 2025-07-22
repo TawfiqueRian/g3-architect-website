@@ -1,0 +1,49 @@
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared data  */
+
+.dark-1{
+    color: #131313;
+}
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    color: #727272;
+}
+.body-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* header style  */
+
+.logo{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+} 
+
+.nav-bar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
