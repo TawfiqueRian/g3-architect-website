@@ -125,6 +125,59 @@ main > section{
     gap: 24px;
 }
 
+/* Features related styles */
+
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.feature-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    padding-left: 21px;
+}
+
+.feature-des{
+    font-size: 1rem;
+}
+
+.feature-card{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.feature-card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px
+}
+
+.feature-card-content{
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+
+.exp-button{
+    padding: 42px 45px;
+    margin-left: -80px;
+    margin-top: -100px;
+}
+
+.year{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.exp{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 /* some facts section styles */
 
 .facts-header{
@@ -241,6 +294,21 @@ footer{
     .team-features{
         margin-left: 20px;
     }
+
+    .features{
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .feature-img img{
+        width: 100%;
+    }
+
+    .exp-button{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
     .fact-container{
         grid-template-columns: 1fr;
         justify-items: center;
@@ -273,5 +341,19 @@ footer{
     .fact-container{
         grid-template-columns: repeat(2,1fr);
         justify-items: center;
+    }
+
+    .features{
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .feature-img img{
+        width: 100%;
+    }
+
+    .exp-button{
+        margin-left: 10px;
+        margin-top: 10px;
     }
 }
